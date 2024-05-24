@@ -1,0 +1,17 @@
+{
+
+    "connectionStrings" : {
+        "engine": ["oracle","sqlServer"],
+        "dataBase" : ["sicoper","VUC"],
+        "server" : ["sicoper","CHEC-BDDS04\\CHECSQLDES"],
+        "queryPath" : ["sql/tabla1.sql","sql/tabla2.sql"],
+        "user": ["",""],
+        "password" : ["",""]
+    },
+
+    "dsnOracle" : {
+        "sicoper":  "(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 10.44.1.126)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = SICOPER)))"
+    }
+
+    
+}
